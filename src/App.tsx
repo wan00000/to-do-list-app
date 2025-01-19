@@ -26,7 +26,7 @@ function App() {
 
   return (
     <main>
-      <h1>My todos</h1>
+      <h1>Zykroz App</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (
@@ -37,7 +37,7 @@ function App() {
         ))}
       </ul>
       <div>
-        🥳 New way list down tasks
+        Start by adding a new todo item.
         {/* <br /> */}
         {/* <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates">
           Review next step of this tutorial.
